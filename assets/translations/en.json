@@ -1,0 +1,9 @@
+{
+    "home": {
+        "title": "Home",
+        "description": "Ana sayfa açıklaması",
+        "welcome": "Hoş geldiniz!",
+        "welcome_message": "Bu, ana sayfa mesajıdır.",
+        "learn_more": "Daha fazla bilgi edinin"
+    }
+}

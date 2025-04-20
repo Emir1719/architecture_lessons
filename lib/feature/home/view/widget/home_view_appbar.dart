@@ -5,7 +5,7 @@ class _HomeViewAppbar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AppBar();
+    return AppBar(title: const Text(LocaleKeys.home_title).tr(args: ["Metin"]));
   }
 
   @override
