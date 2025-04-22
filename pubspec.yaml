@@ -10,6 +10,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  # Kendi modüllerimiz
+  core:
+    path: module/core
+  common:
+    path: module/common
+
+  # Diğerleri
   cupertino_icons: ^1.0.8
   equatable: ^2.0.7
   flutter_riverpod: ^2.6.1
@@ -17,12 +25,8 @@ dependencies:
   json_annotation: ^4.9.0
   kartal: ^4.1.0
   vexana: ^5.0.3
-
-  core:
-    path: module/core
-  common:
-    path: module/common
   easy_localization: ^3.0.7+1
+  easy_logger: ^0.0.2
 
 # Build alındığında yer almayan paketler
 dev_dependencies:
@@ -32,6 +36,7 @@ dev_dependencies:
   build_runner: ^2.4.6
   flutter_gen_runner: ^5.10.0
   flutter_launcher_icons: ^0.14.3
+  envied_generator: ^1.1.1
 
 flutter_launcher_icons:
   android: "launcher_icon"
@@ -42,13 +47,6 @@ flutter_launcher_icons:
 flutter_gen:
   output: lib/pruduct/generated/ # Optional (default: lib/gen/)
   line_length: 80 # Optional (default: 80)
-
-  # Optional
-  integrations:
-    image: true
-    flutter_svg: true
-    rive: true
-    lottie: true
 
 # dependency_overrides:
 #   dio: ^5.2.0

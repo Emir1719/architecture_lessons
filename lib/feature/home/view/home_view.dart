@@ -24,7 +24,7 @@ class _HomeViewState extends State<HomeView> with HomeViewMixin {
       body: Center(
         child: ElevatedButton(
           onPressed: () async {
-            await ProductLocalization.changeLocale(context, Locales.tr);
+            await ProductLocalization.changeLocale(context, Locales.en);
           },
           child: Text("Dil Değiştir"),
         ),
