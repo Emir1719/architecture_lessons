@@ -1,4 +1,4 @@
-import 'package:architecture_lessons/product/util/enum/locales.dart';
+import 'package:architecture_lessons/product/language/locales.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 

@@ -1,6 +1,6 @@
 import 'package:architecture_lessons/feature/home/view/home_view.dart';
 import 'package:architecture_lessons/product/init/app_init.dart';
-import 'package:architecture_lessons/product/init/product_localization.dart';
+import 'package:architecture_lessons/product/language/product_localization.dart';
 import 'package:core/features/theme/theme.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';

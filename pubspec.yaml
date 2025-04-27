@@ -28,6 +28,7 @@ dependencies:
   easy_localization: ^3.0.7+1
   easy_logger: ^0.0.2
   google_fonts: ^6.2.1
+  get_it: ^8.0.3
 
 # Build alındığında yer almayan paketler
 dev_dependencies:
